@@ -41,3 +41,6 @@ Launch an EC2 instance, configure networking and security, install Nginx, and ve
 
 ```bash
 ssh -i my-key.pem ec2-user@<public-ip>
+
+## 💰 Cleanup
+All resources were terminated after testing to avoid unnecessary AWS charges.
